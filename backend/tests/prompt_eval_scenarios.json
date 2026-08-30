@@ -1,0 +1,7 @@
+[
+  {"name": "strong_match", "expected": "Matching skills and strengths must be supported by resume evidence."},
+  {"name": "multiple_gaps", "expected": "Roadmap prioritizes identified missing skills in job-relevant order."},
+  {"name": "unrelated_experience", "expected": "Unrelated resume experience is not presented as job qualification."},
+  {"name": "absent_required_skill", "expected": "A job-required skill absent from evidence is reported as a gap, never as a candidate skill."},
+  {"name": "unrelated_retrieval", "expected": "Retrieved knowledge informs learning only and never becomes a candidate fact."}
+]

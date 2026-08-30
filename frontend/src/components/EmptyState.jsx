@@ -1,0 +1,2 @@
+function EmptyState() { return <section className="empty-state" aria-labelledby="ready-heading"><div><span className="empty-icon" aria-hidden="true">✦</span><h3 id="ready-heading">Ready when you are</h3><p>Upload your resume and add a job description to receive an AI-powered match analysis.</p></div><ul><li>✓ Skill matching</li><li>✓ Gap detection</li><li>✓ Interview preparation</li></ul></section> }
+export default EmptyState

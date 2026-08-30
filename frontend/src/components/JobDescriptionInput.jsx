@@ -1,0 +1,4 @@
+function JobDescriptionInput({ value, disabled, onChange, onClear }) {
+  return <section className="workspace-card" aria-labelledby="job-description-heading"><div className="card-heading"><span className="card-icon purple" aria-hidden="true">≡</span><div><h3 id="job-description-heading">Job description</h3><p>Paste the job description you want to match against.</p></div></div><label className="visually-hidden" htmlFor="job-description">Job description</label><textarea id="job-description" value={value} disabled={disabled} onChange={(event) => onChange(event.target.value)} placeholder="Paste the job description here..." rows="10" /><div className="textarea-meta"><span>{value.length.toLocaleString()} characters</span><button type="button" className="text-button" onClick={onClear} disabled={disabled || !value}>Clear</button></div></section>
+}
+export default JobDescriptionInput
